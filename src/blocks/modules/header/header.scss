@@ -1,7 +1,6 @@
 .promo {
-    background: url('../../../img/main-bg.webp') no-repeat;
-    padding-top: 25px;
-    padding-bottom: 100px;
+    background: url('../../../img/main-bg.webp') center no-repeat;
+    min-height: 680px;
     &__menu {
         display: flex;
         justify-content: space-between;
@@ -30,6 +29,7 @@
         }
     }
     &__header {
+        padding-top: 25px;
         height: 100px;
         position: relative;
         display: flex;
@@ -74,24 +74,50 @@
     &__maintitle {
         padding-top: 6px;
     }
-    .divider {
+    &__divider {
         width: 820px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
-        &__line {
+        &_line {
             width: 400px;
             height: 1px;
             background-color: #fff;
 
         }
-        &__dot {
+        &_dot {
             height: 9px;
             width: 9px;
             border-radius: 50%;
             background-color: #fff;
             margin: 10px;
         }
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(4,280px);
+        gap: 10px;
+        padding-top: 30px;
+        &-item {
+            display: grid;
+            grid-template-rows: 67px 1fr;
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 300;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 40px;
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 80px;
+
     }
 }
