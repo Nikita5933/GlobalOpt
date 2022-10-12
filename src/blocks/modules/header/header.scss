@@ -1,0 +1,97 @@
+.promo {
+    background: url('../../../img/main-bg.webp') no-repeat;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        &_item {
+            border-right: 1px dotted white;
+            &:last-child {
+                border-right: none;
+            }
+        }
+        &_link {
+            font-family: Roboto;
+            font-size: 15px;
+            line-height: 16px;
+            font-weight: 400;
+            color: #ffffff;
+            margin: 0 10px;
+            text-decoration: none;
+            
+           &:hover {
+            color: #ec644b;
+            border-bottom: 1px solid #ec644b;
+            padding-bottom: 3px;
+            transition: all 0.4s;
+           }
+        }
+    }
+    &__header {
+        height: 100px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+    &__phone {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 15px 20px;
+       column-gap: 20px;
+       row-gap: 4px;
+       .btn {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        
+       }
+       &-text {
+        text-align: right;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+       }
+       &-phone {
+        font-family: Roboto;
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+       }
+    }
+    &__title {
+        padding-top: 10px;
+    }
+    &__subtitle {
+        padding-bottom: 25px;
+    }
+    &__maintitle {
+        padding-top: 6px;
+    }
+    .divider {
+        width: 820px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        &__line {
+            width: 400px;
+            height: 1px;
+            background-color: #fff;
+
+        }
+        &__dot {
+            height: 9px;
+            width: 9px;
+            border-radius: 50%;
+            background-color: #fff;
+            margin: 10px;
+        }
+    }
+}

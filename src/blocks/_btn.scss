@@ -1,0 +1,26 @@
+.btn {
+    border-radius: 26px;
+    border: 0px;
+    font-family: Roboto;
+    background-color: #ec644b;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 45px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    cursor: pointer;
+    &-small {
+        width: 160px;
+    }
+    &-med {
+        width: 180px;
+    }
+    &-big {
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+        width: 230px;
+        height: 57px;
+    }
+}

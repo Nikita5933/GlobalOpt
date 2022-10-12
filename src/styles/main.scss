@@ -13,25 +13,5 @@
 // БЭМ-блоки
 @import "../blocks/modules";
 
-h1 {
-    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-}
-
-h2 {
-    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-}
-h3 {
-    font-family: Roboto, Arial;
-    font-weight: 700;
-    font-style: bold;
-}
-h4 {
-    font-family: Roboto, Arial;
-    font-weight: 400;
-}
-h5 {
-    font-family: Roboto, Arial;
-    font-weight: 300;
-}
+@import "../blocks/btn";
+@import "../blocks/title";

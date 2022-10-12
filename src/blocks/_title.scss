@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.2;
+    &_fz24 {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &_fz42 {
+        font-family: 'Roboto Condensed';
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &_fz72 {
+        font-family: 'Roboto Condensed';
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ec644b;
+    }
+}
