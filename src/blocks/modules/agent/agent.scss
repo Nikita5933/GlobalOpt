@@ -1,0 +1,15 @@
+.agent {
+    background: url(../../../img/bg2.webp) 50% 100% no-repeat;
+    padding-top: 60px;
+    // padding-bottom: 75px;
+    &__title {
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    &__subtitle {
+        margin: 0 auto;
+        width: 1000px;
+        padding-bottom: 75px;
+    }
+}

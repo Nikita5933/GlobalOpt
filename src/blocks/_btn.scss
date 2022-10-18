@@ -24,3 +24,19 @@
         height: 57px;
     }
 }
+.divider {
+    margin: 0 auto;
+    width: 148px;
+    height: 1px;
+    background-color: #ec644b;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 102px;
+    height: 102px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}

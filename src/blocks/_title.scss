@@ -2,22 +2,39 @@
     text-align: center;
     color: #ffffff;
     line-height: 1.2;
+    font-weight: 300;
+    &_fz19 {
+        font-family: Roboto;
+        font-size: 19px;
+        line-height: 27px;
+    }
+    &_fz21 {
+        font-family: Roboto;
+        font-size: 21px;
+        line-height: 24px;
+        color: #2e2e2e;
+    }
     &_fz24 {
         font-family: Roboto;
         font-size: 24px;
-        font-weight: 300;
+    }
+    &_fz26 {
+        font-family: Roboto;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2e2e2e;
     }
     &_fz42 {
         font-family: 'Roboto Condensed';
         font-size: 42px;
         font-weight: 400;
-        text-transform: uppercase;
     }
     &_fz72 {
         font-family: 'Roboto Condensed';
         font-size: 72px;
         font-weight: 700;
-        text-transform: uppercase;
         color: #ec644b;
     }
 }
