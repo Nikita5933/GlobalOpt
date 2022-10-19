@@ -15,3 +15,5 @@ _config.yml
 node_modules
 dist
 package-lock.json
+GlobalOpt.psd
+README.md
