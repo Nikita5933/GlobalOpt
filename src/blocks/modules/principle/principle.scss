@@ -1,0 +1,43 @@
+.principle {
+    padding-top: 51px;
+    padding-bottom: 46px;
+    &__wrapper {
+        margin-top: 33px;
+        &-firstline {
+            display: grid;
+            grid-template-columns: repeat(4, 260px);
+            justify-content: space-between;
+            text-align: center;
+        }
+        &-secondline {
+            margin-top: 26px;
+            display: grid;
+            grid-template-columns: repeat(3, 260px);
+            justify-content: center;
+            column-gap: 46px;
+        }
+    }
+    &__item {
+        display: grid;
+        grid-template-rows: 57px 14px 1fr;
+        row-gap: 12px;
+        text-align: center;
+        img {
+            margin: 0 auto;
+        }
+        &-title {
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+            color: #ec644b;
+        }
+        &-descr {
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            text-align: center;
+        }
+    }
+}
