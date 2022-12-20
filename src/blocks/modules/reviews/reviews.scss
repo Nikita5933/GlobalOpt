@@ -154,8 +154,7 @@
   
  
   
-  .left:hover polyline,
-  .left:focus polyline {
+  .left:hover polyline {
     stroke-width: 3;
   }
   
@@ -164,14 +163,8 @@
     transition: all 100ms ease-in-out;
   }
   
-  .right:hover polyline,
-  .right:focus polyline {
+  .right:hover polyline {
     stroke-width: 3;
-  }
-  
-  .right:active polyline {
-    stroke-width: 6;
-    transition: all 100ms ease-in-out;
   }
   
   polyline {

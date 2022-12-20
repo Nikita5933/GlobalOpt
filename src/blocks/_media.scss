@@ -1,0 +1,130 @@
+@media (max-width: 1200px){
+    .container {
+        max-width: 960px;
+    }
+    .promo {
+        &__items {
+            grid-template-columns: repeat(4, 240px);
+        }
+        &__menu {
+            &_link {
+                font-size: 12px;
+            }
+        }
+        &__phone {
+            &-text {
+                font-size: 12px;
+            }
+            &-phone {
+                display: flex;
+                font-size: 16px;
+                justify-content: flex-end;
+            }
+        }
+    }
+}
+@media (max-width: 991px){
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        min-height: 600px;
+        &__header {
+            height: 60px;
+            padding-top: 8px;
+        }
+        &__title {
+            padding-top: 24px;
+            font-size: 22px;
+        }
+        &__maintitle {
+            font-size: 50px;
+        }
+        &__subtitle {
+            font-size: 28px;
+        }
+        &__logo {
+            img {
+                display: block;
+                width: 60px;
+                height: 60px;
+            }
+        }
+        &__divider {
+            width: 560px;
+            &_dot {
+                width: 12px;
+                height: 8px;
+            }
+        }
+
+        &__item {
+            &-descr {
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+        &__items {
+            grid-template-columns: repeat(4, 170px);
+        }
+        &__menu {
+            &_link {
+                font-size: 14px;
+            }
+        }
+        &__phone {
+          display: none;
+        }
+    }
+}
+@media (max-width: 767px){
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        min-height: 570px;
+        &__menu {
+            &_link {
+                font-size: 11px;
+            }
+        }
+        &__title {
+            padding-top: 18px;
+            font-size: 18px;
+        }
+        &__maintitle {
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 23px;
+            padding-bottom: 12px;
+        }
+        &__divider {
+            width: 450px;
+            &_dot {
+                height: 7px;
+            }
+        }
+        &__items {
+            grid-template-columns: repeat(4, 130px);
+        }
+        &__item {
+            &-descr {
+                font-size: 11px;
+                line-height: 16px;
+            }
+        }
+        
+    }
+    .btn-big {
+        width: 210px;
+        font-size: 14px;
+
+    }
+}
+@media (max-width: 575px){
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}

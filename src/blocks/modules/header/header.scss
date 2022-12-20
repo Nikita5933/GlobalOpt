@@ -1,5 +1,5 @@
 .promo {
-    background: url('../../../img/main-bg.webp') center no-repeat;
+    background: url('../../../img/main-bg.webp') 50% 0% no-repeat;
     min-height: 680px;
     &__menu {
         display: flex;
@@ -117,7 +117,5 @@
     &__btn {
         display: block;
         margin: 0 auto;
-        margin-bottom: 80px;
-
     }
 }

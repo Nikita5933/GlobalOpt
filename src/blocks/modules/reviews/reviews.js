@@ -1,11 +1,11 @@
 "use strict";
 
-const slider = document.querySelector(".items");
-const slides = document.querySelectorAll(".item");
-const button = document.querySelectorAll(".button");
-let current = 0;
-let prev = 4;
-let next = 1;
+const slides = document.querySelectorAll(".item"),
+	button = document.querySelectorAll(".button");
+
+let current = 0,
+	prev = 4,
+	next = 1;
 
 for (let i = 0; i < button.length; i++) {
 	button[i].addEventListener("click", () => i == 0 ? gotoPrev() : gotoNext());
@@ -21,21 +21,22 @@ current = number;
 prev = current - 1;
 next = current + 1;
 
-			for (let i = 0; i < slides.length; i++) {
-				slides[i].classList.remove("active");
-				slides[i].classList.remove("prev");
-				slides[i].classList.remove("next");
-			}
+for (let i = 0; i < slides.length; i++) {
+	slides[i].classList.remove("active");
+	slides[i].classList.remove("prev");
+	slides[i].classList.remove("next");
+}
 
-			if (next == 5) {
-				next = 0;
-			}
+if (next == 3) {
+	next = 0;
+}
 
-			if (prev == -1) {
-				prev = 2;
-			}
+if (prev == -1) {
+	prev = 2;
+}
 
-			slides[current].classList.add("active");
-			slides[prev].classList.add("prev");
-			slides[next].classList.add("next");
-		}
+slides[current].classList.add("active");
+slides[prev].classList.add("prev");
+slides[next].classList.add("next");
+
+};
