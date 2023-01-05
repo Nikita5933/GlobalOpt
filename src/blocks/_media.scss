@@ -182,6 +182,55 @@
 @media (max-width: 575px){
     .container {
         max-width: 100%;
-        padding: 0 10px;
     }
+    .promo {
+        min-height: 680px;
+        &__phone {
+            margin: 0 auto;
+            grid-template-columns: 140px 50px;
+            &-btn {
+                display: none;
+            }
+            &-phone {
+                grid-column: 1/2;
+                grid-row: 2;
+            }
+        }
+        &__title {
+            font-size: 15px;
+        }
+        &__maintitle {
+            font-size: 30px;
+        }
+        &__subtitle {
+            font-size: 19px;
+        }
+        &__divider {
+            width: 280px;
+            &_dot {
+                height: 4px;
+            }
+        }
+        &__items {
+            padding-top: 5px;
+            grid-template-columns: repeat(2, 145px);
+            justify-content: center;
+            &-item {
+                margin-bottom: 10px;
+            }
+        }
+        &__btn {
+            margin-top: 20px;
+           
+        }
+        &__menu {
+            &_link {
+                font-size: 18px;
+            }
+        }
+        &__close {
+            left: 88%;
+        }
+    }
+    
 }
