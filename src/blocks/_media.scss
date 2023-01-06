@@ -4,7 +4,7 @@
     }
     .promo {
         &__items {
-            grid-template-columns: repeat(4, 240px);
+            grid-template-columns: repeat(4, 230px);
         }
         &__menu {
             &_link {
@@ -20,6 +20,16 @@
                 font-size: 16px;
                 justify-content: flex-end;
             }
+        }
+    }
+    .advantages {
+        &__item {
+            column-gap: 5px;
+            grid-template-columns: 64px 400px;
+        }
+        &__wrapper {
+            grid-template-columns: repeat(2, 460px);
+            column-gap: 30px;
         }
     }
 }
@@ -74,6 +84,19 @@
         }
         &__phone {
           display: none;
+        }
+    }
+    .advantages {
+        &__title {
+            padding-top: 30px;
+        }
+        &__item {
+            grid-template-columns: 64px 432px;
+        }
+        &__wrapper {
+            grid-template-columns: 460px;
+            justify-content: center;
+            row-gap: 50px;
         }
     }
 }
@@ -160,6 +183,7 @@
     }
     .active {
         left: 0;
+
     }
     .hamburger {
         display: block;
@@ -230,6 +254,32 @@
         }
         &__close {
             left: 88%;
+        }
+    }
+    .advantages {
+        &__title {
+            padding-top: 14px;
+            padding-bottom: 16px;
+            font-size: 21px;
+        }
+        &__item {
+            grid-template-columns: 58px 220px;
+            &-title {
+                padding-top: 6px;
+                font-size: 12px;
+            }
+            &-descr {
+                font-size: 13px;
+                margin-top: 16px;
+            }
+            &:nth-child(8) {
+               padding-top: 84px;
+            }
+           
+           
+        }
+        &__wrapper {
+            grid-template-columns: 280px;
         }
     }
     

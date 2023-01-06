@@ -26,7 +26,6 @@
     &__wrapper {
         display: grid;
         grid-template-columns: repeat(2, 530px);
-        grid-template-rows: minmax(auto-fit, auto-fill);
         row-gap: 35px;
         column-gap: 62px;
     }
