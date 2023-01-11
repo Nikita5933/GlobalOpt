@@ -150,6 +150,38 @@
             width: 730px;
         }
     }
+    .price {
+        &__wrapper {
+            grid-template-columns: repeat(4, 156px);
+        }
+        &-item {
+            &__price {
+                font-size: 23px;
+            }
+            &__descr {
+                margin: 10px 0;
+            }
+            &__delivery {
+                font-size: 14px;
+            }
+        }
+        &-item {
+            &__descr {
+                font-size: 13px;
+            }
+            &__delivery {
+                width: 156px;
+            }
+        }
+    }
+    .consultation {
+        &-form {
+            grid-template-columns: repeat(3, 240px);
+            &__btn {
+                margin-left: 30px;
+            }
+        }
+    }
 }
 @media (max-width: 767px){
     .container {
@@ -289,6 +321,44 @@
             font-size: 17px;
         }
     }
+    .price {
+        &__wrapper {
+            grid-template-columns: repeat(2, 260px);
+            grid-template-rows: repeat(2, 350px);
+            row-gap: 24px;
+        }
+        &__subtitle {
+            width: 545px;
+            font-size: 19px;
+        }
+        &-item {
+            &__price {
+                font-size: 25px;
+            }
+            &__descr {
+                margin: 20px 0;
+            }
+            &__delivery {
+                font-size: 16px;
+            }
+        }
+        &-item {
+            &__descr {
+                font-size: 15px;
+            }
+            &__delivery {
+                width: 260px;
+            }
+        }
+    }
+    .consultation {
+        &-form {
+            grid-template-columns: repeat(3, 180px);
+            &__btn {
+                margin-left: 0;
+            }
+        }
+    }
 }
 @media (max-width: 575px){
     .container {
@@ -345,7 +415,7 @@
     }
     .advantages {
         &__title {
-            padding-top: 14px;
+            padding-top: 24px;
             padding-bottom: 16px;
             font-size: 21px;
         }
@@ -393,5 +463,43 @@
             padding-bottom: 20px;
         }
     }
-    
+    .price {
+        padding: 24px 0;
+        &__wrapper {
+            grid-template-columns: 280px;
+            grid-template-rows: repeat(4, 350px);
+            justify-content: center;
+            row-gap: 24px;
+        }
+        &__title {
+            font-size: 21px;
+        }
+        &__subtitle {
+            width: 300px;
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+        &-item {
+            &__delivery {
+                width: 280px;
+            }
+        }
+    }
+    .consultation {
+        padding-top: 0;
+        padding-bottom: 24px;
+        &__title {
+            font-size: 21px;
+        }
+        &-form {
+            grid-template-columns: 280px;
+            grid-template-rows: repeat(4, 47px);
+            row-gap: 16px;
+            
+            &__btn {
+                margin-left: 52px;
+                grid-column: 1;
+            }
+        }
+    }
 }
