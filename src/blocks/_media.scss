@@ -32,6 +32,33 @@
             column-gap: 30px;
         }
     }
+    .ourwork {
+        &__item {
+            width: 300px;
+            img {
+                display: block;
+                width: 300px;
+            }
+        }
+    }
+    .agent {
+        &__subtitle {
+            width: 960px;
+        }
+    }
+    .price {
+        &__wrapper {
+            grid-template-columns: repeat(4, 215px);
+        }
+        &-item {
+            &__descr {
+                font-size: 13px;
+            }
+            &__delivery {
+                width: 215px;
+            }
+        }
+    }
 }
 @media (max-width: 991px){
     .container {
@@ -99,13 +126,36 @@
             row-gap: 50px;
         }
     }
+    .ourwork {
+        &__title {
+            padding-top: 84px;
+            padding-bottom: 25px;
+        }
+        &__subtitle {
+            width: 734px;
+            font-size: 18px;
+        }
+        &__item {
+            width: 230px;
+            img {
+                width: 230px;
+            }
+            &-title {
+                font-size: 16px;
+            }
+        }
+    }
+    .agent {
+        &__subtitle {
+            width: 730px;
+        }
+    }
 }
 @media (max-width: 767px){
     .container {
         max-width: 540px;
     }
     .promo {
-        // position: relative;
         min-height: 570px;
         &__close {
             position: absolute;
@@ -202,6 +252,43 @@
 			transition: 0.5s all;
         }
     }
+    .advantages {
+        &__item {
+            &:nth-child(8) {
+                padding-top: 30px;
+             }
+        }
+    }
+    .ourwork {
+        &__wrapper {
+            flex-direction: column;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+        &__title {
+            padding-top: 84px;
+            padding-bottom: 25px;
+        }
+        &__subtitle {
+            width: 530px;
+            font-size: 16px;
+        }
+        &__item {
+            width: 360px;
+            img {
+                width: 360px;
+            }
+            &-title {
+                font-size: 18px;
+            }
+        }
+    }
+    .agent {
+        &__subtitle {
+            width: 545px;
+            font-size: 17px;
+        }
+    }
 }
 @media (max-width: 575px){
     .container {
@@ -280,6 +367,30 @@
         }
         &__wrapper {
             grid-template-columns: 280px;
+        }
+    }
+    .ourwork {
+        &__title {
+            margin-top: 68px;
+            padding-bottom: 25px;
+            font-size: 21px;
+        }
+        &__subtitle {
+            width: 300px;
+            font-size: 15px;
+        }
+        &__item {
+            width: 280px;
+            img {
+                width: 280px;
+            }
+        }
+    }
+    .agent {
+        &__subtitle {
+            width: 300px;
+            font-size: 16px;
+            padding-bottom: 20px;
         }
     }
     
