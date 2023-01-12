@@ -59,6 +59,21 @@
             }
         }
     }
+    .managers {
+        &__subtitle {
+            width: 960px;
+        }
+    }
+    .principle {
+        &__wrapper {
+            &-firstline {
+                grid-template-columns: repeat(4, 230px);
+            }
+            &-secondline {
+                grid-template-columns: repeat(3, 230px);
+            }
+        }
+    }
 }
 @media (max-width: 991px){
     .container {
@@ -179,6 +194,26 @@
             grid-template-columns: repeat(3, 240px);
             &__btn {
                 margin-left: 30px;
+            }
+        }
+    }
+    .managers {
+        &__subtitle {
+            width: 730px;
+        }
+    }
+    .principle {
+        &__wrapper {
+            &-firstline {
+                grid-template-columns: repeat(4, 170px);
+            }
+            &-secondline {
+                grid-template-columns: repeat(3, 170px);
+            }
+        }
+        &__item {
+            &-title {
+                font-size: 15px;
             }
         }
     }
@@ -359,6 +394,33 @@
             }
         }
     }
+    .managers {
+        &__subtitle {
+            width: 545px;
+            font-size: 17px;
+        }
+    }
+    .principle {
+        &__wrapper {
+            &-firstline {
+                grid-template-columns: repeat(4, 130px);
+            }
+            &-secondline {
+                grid-template-columns: repeat(3, 130px);
+            }
+        }
+        &__item {
+            row-gap: 7px;
+            &-title {
+                font-size: 15px;
+                line-height: 14px;
+            }
+            &-descr {
+                padding-top: 10px;
+                font-size: 13px;
+            }
+        }
+    }
 }
 @media (max-width: 575px){
     .container {
@@ -499,6 +561,47 @@
             &__btn {
                 margin-left: 52px;
                 grid-column: 1;
+            }
+        }
+    }
+    .managers {
+        &__title {
+            line-height: 30px;
+        }
+        &__subtitle {
+            width: 300px;
+            font-size: 16px;
+            padding-bottom: 20px;
+        }
+    }
+    .principle {
+        padding-top: 24px;
+        padding-bottom: 0;
+        &__title {
+            font-size: 21px;
+        }
+        &__wrapper {
+            margin-top: 16px;
+            &-firstline {
+                grid-template-columns: 280px;
+                grid-template-rows: repeat(4, 180px);
+                justify-content: center;
+            }
+            &-secondline {
+                grid-template-columns: 280px;
+                grid-template-rows: repeat(3, 180px);
+                justify-content: center;
+            }
+        }
+        &__item {
+            row-gap: 7px;
+            &-title {
+                font-size: 15px;
+                line-height: 22px;
+            }
+            &-descr {
+                padding-top: 10px;
+                font-size: 14px;
             }
         }
     }
