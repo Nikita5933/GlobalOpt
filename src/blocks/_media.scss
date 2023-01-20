@@ -79,6 +79,11 @@
             width: 440px;
         }
     }
+    .map {
+        &__window {
+            left: 70px;
+        }
+    }
 }
 @media (max-width: 991px){
     .container {
@@ -249,6 +254,15 @@
             input {
                 width: 170px;
             }
+        }
+    }
+    .map {
+        &__window {
+            left: 10px;
+            width: 320px;
+        }
+        &__close {
+            left: 293px;
         }
     }
 }
@@ -502,6 +516,15 @@
             }
         }
     }
+    .map {
+        &__window {
+            width: 230px;
+            height: 205px;
+        }
+        &__close {
+            left: 203px;
+        }
+    }
    
 }
 @media (max-width: 575px){
@@ -750,6 +773,11 @@
                 width: 180px;
                 font-size: 13px;
             }
+        }
+    }
+    .map {
+        &__window {
+            display: none;
         }
     }
 }

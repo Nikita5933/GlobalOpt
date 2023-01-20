@@ -13,8 +13,9 @@
         top: 160px;
         left: 220px;
         width: 360px;
-        height: 220px;
+        height: 195px;
         background-color: #fff;
+        border-radius: 6px;
     }
     &__title {
         padding-bottom: 8px;
@@ -37,6 +38,7 @@
         font-size: 14px;
         font-weight: 300;
         a {
+            font-family: Roboto;
             color: #ec644b;
         }
     }
@@ -46,5 +48,6 @@
         left: 330px;
         cursor: pointer;
         width: 20px;
+        height: 23px;
     }
 }
