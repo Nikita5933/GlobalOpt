@@ -16,13 +16,13 @@
         width: 700px;
         margin: 17px auto 31px auto;
     }
-    &-item {
+    &__item {
         display: flex;
         align-items: center;
         flex-direction: column;
         background-color: white;
         text-align: center;
-        &__delivery {
+        &-delivery {
             display: flex;
             align-items:center;
             justify-content: center;
@@ -39,7 +39,7 @@
         img {
             margin-top: 14px;
         }
-        &__days {
+        &-days {
             margin-top: 12px;
             font-family: Roboto;
             font-size: 14px;
@@ -48,13 +48,13 @@
             text-transform: uppercase;
             color: #2e2e2e;
         }
-        &__price {
+        &-price {
             font-family: Roboto;
             font-size: 28px;
             line-height: 30px;
             color: #ec644b;
         }
-        &__descr {
+        &-descr {
             padding-left: 15px;
             padding-right: 16px;
             margin-top: 19px;
@@ -65,7 +65,7 @@
             font-weight: 300;
             color: #2e2e2e;
         }
-        &__btn {
+        &-btn {
             display: flex;
             align-items:center;
             justify-content: center;

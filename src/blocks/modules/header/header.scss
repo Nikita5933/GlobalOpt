@@ -5,13 +5,13 @@
         display: flex;
         justify-content: space-between;
         list-style-type: none;
-        &_item {
+        &-item {
             border-right: 1px dotted white;
             &:last-child {
                 border-right: none;
             }
         }
-        &_link {
+        &-link {
             font-family: Roboto;
             font-size: 15px;
             line-height: 16px;
@@ -99,7 +99,7 @@
         grid-template-columns: repeat(4,280px);
         gap: 10px;
         padding-top: 30px;
-        &-item {
+        &_item {
             display: grid;
             grid-template-rows: 67px 1fr;
             font-family: Roboto;

@@ -7,7 +7,7 @@
             grid-template-columns: repeat(4, 230px);
         }
         &__menu {
-            &_link {
+            &-link {
                 font-size: 12px;
             }
         }
@@ -50,11 +50,11 @@
         &__wrapper {
             grid-template-columns: repeat(4, 215px);
         }
-        &-item {
-            &__descr {
+        &__item {
+            &-descr {
                 font-size: 13px;
             }
-            &__delivery {
+            &-delivery {
                 width: 215px;
             }
         }
@@ -130,7 +130,7 @@
             grid-template-columns: repeat(4, 170px);
         }
         &__menu {
-            &_link {
+            &-link {
                 font-size: 14px;
             }
         }
@@ -179,22 +179,16 @@
         &__wrapper {
             grid-template-columns: repeat(4, 156px);
         }
-        &-item {
-            &__price {
+        &__item {
+            &-price {
                 font-size: 23px;
             }
-            &__descr {
+            &-descr {
                 margin: 10px 0;
-            }
-            &__delivery {
-                font-size: 14px;
-            }
-        }
-        &-item {
-            &__descr {
                 font-size: 13px;
             }
-            &__delivery {
+            &-delivery {
+                font-size: 14px;
                 width: 156px;
             }
         }
@@ -315,10 +309,10 @@
             justify-content: center;
             align-content: center;
             flex-wrap: wrap;
-            &_link {
+            &-link {
                 font-size: 25px;
             }
-            &_item {
+            &-item {
                 border: none;
                 margin-bottom: 30px;
             }
@@ -357,7 +351,7 @@
         }
         
     }
-    .btn-big {
+    .btn_big {
         width: 210px;
         font-size: 14px;
 
@@ -430,22 +424,16 @@
             width: 545px;
             font-size: 19px;
         }
-        &-item {
-            &__price {
+        &__item {
+            &-price {
                 font-size: 25px;
             }
-            &__descr {
+            &-descr {
                 margin: 20px 0;
-            }
-            &__delivery {
-                font-size: 16px;
-            }
-        }
-        &-item {
-            &__descr {
                 font-size: 15px;
             }
-            &__delivery {
+            &-delivery {
+                font-size: 16px;
                 width: 260px;
             }
         }
@@ -576,7 +564,7 @@
         &__phone {
             margin: 0 auto;
             grid-template-columns: 140px 50px;
-            &-btn {
+            &_btn {
                 display: none;
             }
             &-phone {
@@ -603,7 +591,7 @@
             padding-top: 5px;
             grid-template-columns: repeat(2, 145px);
             justify-content: center;
-            &-item {
+            &_item {
                 margin-bottom: 10px;
             }
         }
@@ -612,7 +600,7 @@
            
         }
         &__menu {
-            &_link {
+            &-link {
                 font-size: 18px;
             }
         }
@@ -686,8 +674,8 @@
             font-size: 15px;
             margin-bottom: 16px;
         }
-        &-item {
-            &__delivery {
+        &__item {
+            &-delivery {
                 width: 280px;
             }
         }
@@ -842,7 +830,7 @@
             &-text {
                 display: none;
             }
-            &-btn {
+            &_btn {
                 margin-top: 28px;
             }
         }
