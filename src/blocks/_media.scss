@@ -66,17 +66,25 @@
     }
     .principle {
         &__wrapper {
-            &-firstline {
+            &_firstline {
                 grid-template-columns: repeat(4, 230px);
             }
-            &-secondline {
+            &_secondline {
                 grid-template-columns: repeat(3, 230px);
             }
         }
     }
-    .items {
-        .item {
-            width: 440px;
+    
+    .reviews {
+        &__slider {
+            &-item {
+                width: 440px;
+            }
+        }
+        &__button-container {
+            .arrow {
+                margin-top: -105px;
+            }
         }
     }
     .map {
@@ -194,9 +202,9 @@
         }
     }
     .consultation {
-        &-form {
+        &__form {
             grid-template-columns: repeat(3, 240px);
-            &__btn {
+            &-btn {
                 margin-left: 30px;
             }
         }
@@ -208,10 +216,10 @@
     }
     .principle {
         &__wrapper {
-            &-firstline {
+            &_firstline {
                 grid-template-columns: repeat(4, 170px);
             }
-            &-secondline {
+            &_secondline {
                 grid-template-columns: repeat(3, 170px);
             }
         }
@@ -221,11 +229,13 @@
             }
         }
     }
-    .items {
-        .item {
-            width: 340px;
-            &__review {
-                font-size: 13px;
+    .reviews {
+        &__slider {
+            &-item {
+                width: 340px;
+                &_review {
+                    font-size: 13px;
+                }
             }
         }
     }
@@ -439,9 +449,9 @@
         }
     }
     .consultation {
-        &-form {
+        &__form {
             grid-template-columns: repeat(3, 180px);
-            &__btn {
+            &-btn {
                 margin-left: 0;
             }
         }
@@ -454,10 +464,10 @@
     }
     .principle {
         &__wrapper {
-            &-firstline {
+            &_firstline {
                 grid-template-columns: repeat(4, 130px);
             }
-            &-secondline {
+            &_secondline {
                 grid-template-columns: repeat(3, 130px);
             }
         }
@@ -473,30 +483,29 @@
             }
         }
     }
-    .items {
-        .item {
-            width: 340px;
-            &__review {
-                font-size: 13px;
-            }
+    .reviews {
+        &__slider {
             .prev {
-                transform: translate(-110%, -60%) scale(0.6, 0.6);
+                transform: translate(-100%, -60%) scale(0.5, 0.5);
+                .reviews__slider-item_review {
+                    display: none;
+                }
+            }
+            .next {
+                transform: translate(0%, -60%) scale(0.5, 0.5); 
+                .reviews__slider-item_review {
+                    display: none;
+                }
+            }
+            }
+            &-item {
+                width: 340px;
+                &_review {
+                    font-size: 13px;
+                }
             }
         }
-    }
-    .item.prev {
-        transform: translate(-100%, -60%) scale(0.5, 0.5);
-    }
-    .item.next {
-        transform: translate(0%, -60%) scale(0.5, 0.5);
-    }
-    .next, .prev {
-        .item {
-            &__review {
-                display: none;
-            }
-        }
-    }
+    
     .application {
         &__wrapper {
             width: 540px;
@@ -553,8 +562,8 @@
             padding-left: 60px;
         }
     }
-   
 }
+
 @media (max-width: 575px){
     .container {
         max-width: 100%;
@@ -686,12 +695,12 @@
         &__title {
             font-size: 21px;
         }
-        &-form {
+        &__form {
             grid-template-columns: 280px;
             grid-template-rows: repeat(4, 47px);
             row-gap: 16px;
             
-            &__btn {
+            &-btn {
                 margin-left: 52px;
                 grid-column: 1;
             }
@@ -715,12 +724,12 @@
         }
         &__wrapper {
             margin-top: 16px;
-            &-firstline {
+            &_firstline {
                 grid-template-columns: 280px;
                 grid-template-rows: repeat(4, 180px);
                 justify-content: center;
             }
-            &-secondline {
+            &_secondline {
                 grid-template-columns: 280px;
                 grid-template-rows: repeat(3, 180px);
                 justify-content: center;
@@ -746,26 +755,34 @@
         &__subtitle {
             font-size: 16px;
         }
-    }
-    .items {
-        .item {
-            width: 280px;
-            &__review {
-                font-size: 12px;
+        &__slider {
+            .prev {
+                transform: translate(-74%, -66%) scale(0.4, 0.4);
+                opacity: 0;
+                .reviews__slider-item_review {
+                    display: none;
+                }
+            }
+            .next {
+                opacity: 0;
+                transform: translate(-26%, -66%) scale(0.4, 0.4);
+                .reviews__slider-item_review {
+                    display: none;
+                }
+            }
+            }
+            &-item {
+                width: 280px;
+                &_review {
+                    font-size: 12px;
+                }
+            }
+            &__button-container {
+                .arrow {
+                    margin-top: -110px;
+                }
             }
         }
-    }
-    .item.prev {
-        transform: translate(-74%, -66%) scale(0.4, 0.4);
-        opacity: 0;
-    }
-    .item.next {
-        opacity: 0;
-        transform: translate(-26%, -66%) scale(0.4, 0.4);
-    }
-    .arrow {
-        margin-top: -115px;
-    }
     .application {
         padding-top: 25px;
         height: 320px;

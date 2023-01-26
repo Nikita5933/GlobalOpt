@@ -3,13 +3,13 @@
     padding-bottom: 46px;
     &__wrapper {
         margin-top: 33px;
-        &-firstline {
+        &_firstline {
             display: grid;
             grid-template-columns: repeat(4, 260px);
             justify-content: space-between;
             text-align: center;
         }
-        &-secondline {
+        &_secondline {
             margin-top: 26px;
             display: grid;
             grid-template-columns: repeat(3, 260px);

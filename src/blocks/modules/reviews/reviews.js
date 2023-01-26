@@ -1,6 +1,6 @@
 "use strict";
 
-const slides = document.querySelectorAll(".item"),
+const slides = document.querySelectorAll(".reviews__slider-item"),
 	button = document.querySelectorAll(".button");
 
 let current = 0,
