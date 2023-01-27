@@ -8,6 +8,9 @@ const hamburger = document.querySelector('.hamburger'),
 hamburger.addEventListener('click', () => {
     aside.classList.toggle('active');
     body.style.overflow = 'hidden';
+    if (!aside.contains(document.querySelector(".active"))) {
+        body.style.overflow = 'scroll';
+    }
 });
 
 close.addEventListener('click', () => {

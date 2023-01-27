@@ -16,38 +16,39 @@
         height: 195px;
         background-color: #fff;
         border-radius: 6px;
-    }
-    &__title {
-        padding-bottom: 8px;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 700;
-        color: #ec644b;
-    }
-    &__location, &__phone, &__subway {
-        font-family: Roboto;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 300;
-        color: #3a3a3a;
-        padding-bottom: 12px;
-    }
-    &__email {
-        font-size: 14px;
-        font-weight: 300;
-        a {
+        &-title {
+            padding-bottom: 8px;
+            text-align: center;
             font-family: Roboto;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
             color: #ec644b;
         }
+        &-location, &-phone, &-subway {
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            color: #3a3a3a;
+            padding-bottom: 12px;
+        }
+        &-email {
+            font-size: 14px;
+            font-weight: 300;
+            a {
+                font-family: Roboto;
+                color: #ec644b;
+            }
+        }
+        &-close {
+            font-size: 35px;
+            position: relative;
+            left: 330px;
+            cursor: pointer;
+            width: 20px;
+            height: 23px;
+        }
     }
-    &__close {
-        font-size: 35px;
-        position: relative;
-        left: 330px;
-        cursor: pointer;
-        width: 20px;
-        height: 23px;
-    }
+   
 }

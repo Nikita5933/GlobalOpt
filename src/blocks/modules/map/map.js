@@ -1,8 +1,8 @@
 "use strict";
 
-const btnClose = document.querySelector('[data-close]'),
+const btnClose = document.querySelectorAll('[data-close]'),
       mapWindow = document.querySelector('.map__window');
 
-btnClose.addEventListener('click', () => {
+btnClose[1].addEventListener('click', () => {
     mapWindow.style.display = 'none';
 });
