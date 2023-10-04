@@ -81,12 +81,16 @@
          font-weight: 300;
          color: #ffffff;
         }
-        &-phone {
+        &-phone a {
          font-family: Roboto;
+         text-decoration: none;
          font-size: 19px;
          line-height: 24px;
          font-weight: 700;
          color: #ffffff;
+         &:hover {
+            text-decoration: underline;
+         }
         }
      }
      &__divider {

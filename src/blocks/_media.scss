@@ -1,3 +1,15 @@
+@media (max-width: 1440px){
+    .container {
+        max-width: 1180px;
+    }
+    .reviews {
+        &__slider {
+            &-item {
+                width: 550px;
+            }
+        }
+    }
+}
 @media (max-width: 1200px){
     .container {
         max-width: 960px;
@@ -277,7 +289,7 @@
         }
         &__phone {
             column-gap: 10px;
-            &-phone {
+            &-phone a {
                 font-size: 13px;
             }
         }
@@ -308,6 +320,7 @@
         }
         &__wrapper-aside {
             position: fixed;
+            z-index: 1;
             top: 0;
             left: -100%;
             width: 50%;
@@ -371,7 +384,6 @@
     }
     .active {
         left: 0;
-
     }
     .hamburger {
         display: block;
@@ -588,6 +600,9 @@
                 display: none;
             }
             &-phone {
+                & a {
+                    font-size: 16px;
+                }
                 grid-column: 1/2;
                 grid-row: 2;
             }
@@ -884,4 +899,19 @@
         }
         
     }
+}
+@media (max-width: 360px){
+    .reviews {
+        &__slider {
+            &-item {
+                width: 270px;
+            }
+        }
+        &__button-container {
+            .arrow {
+                margin-top: -125px;
+            }
+        }
+    }
+    
 }

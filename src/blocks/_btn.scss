@@ -10,6 +10,7 @@
     font-size: 12px;
     line-height: 22px;
     cursor: pointer;
+    transition: opacity .3s;
     &_small {
         width: 160px;
     }
@@ -22,6 +23,9 @@
         font-weight: 700;
         width: 230px;
         height: 57px;
+    }
+    &:hover {
+        opacity: .85;
     }
 }
 .divider {
