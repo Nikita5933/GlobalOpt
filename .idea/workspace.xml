@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd020057-3d5f-42b7-852e-25a08df46545" name="Changes" comment="gh-pages">
+    <list default="true" id="cd020057-3d5f-42b7-852e-25a08df46545" name="Changes" comment="gh-pages fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704203532397</updated>
-      <workItem from="1704203533548" duration="691000" />
+      <workItem from="1704203533548" duration="916000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages">
       <option name="closed" value="true" />
@@ -63,7 +64,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704204006034</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gh-pages fix">
+      <option name="closed" value="true" />
+      <created>1704204252976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704204252976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gh-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="gh-pages" />
+    <MESSAGE value="gh-pages fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="gh-pages fix" />
   </component>
 </project>
