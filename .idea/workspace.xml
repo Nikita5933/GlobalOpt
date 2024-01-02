@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd020057-3d5f-42b7-852e-25a08df46545" name="Changes" comment="gh-pages fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/advantages/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/advantages/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/advantages/icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/advantages/icon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/advantages/icon5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/advantages/icon6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/advantages/icon7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/advantages/icon8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/agent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/consultation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/managers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/price/plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/price/ship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/price/train.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/price/truck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/principle/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/principle/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/principle/icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/principle/icon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/principle/icon5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/principle/icon6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/principle/icon7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/promo/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/promo/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/promo/icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/promo/icon4.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +39,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -54,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704203532397</updated>
-      <workItem from="1704203533548" duration="916000" />
+      <workItem from="1704203533548" duration="1227000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages">
       <option name="closed" value="true" />
@@ -72,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704204252976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gh-pages fix">
+      <option name="closed" value="true" />
+      <created>1704204502981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704204502981</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
